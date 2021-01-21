@@ -13,10 +13,11 @@
     "@testing-library/user-event": "^12.1.10",
     "antd": "^4.8.4",
     "graphql-yoga": "^1.18.3",
-    "mapbox-gl": "^2.0.0",
+    "mapbox-gl": "^2.0.1",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.3",
     "react-dom": "^17.0.1",
+    "react-mapbox-gl": "^5.1.1",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.0",
@@ -27,7 +28,7 @@
     "websocket": "^1.0.32"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
